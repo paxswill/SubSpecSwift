@@ -18,9 +18,10 @@ Also meaningful. And longer than the summary.
   s.source_files = 'SubSpecSwift/Classes/**/*'
   s.dependency 'Threadly'
 
-  s.subspec 'Sub1' do |sub1|
-    sub1.dependency 'Quick'
-  end
+  # Uncomment the lines below to work around test spec dependencies not being
+  # built.
+  #s.dependency 'Nimble'
+  #s.dependency 'Quick'
 
   s.test_spec 'Tests' do |t|
     t.dependency 'Nimble'
