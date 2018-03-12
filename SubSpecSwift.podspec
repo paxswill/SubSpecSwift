@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'A meaningful summary'
   s.description      = <<-DESC
-Also menaningful.
+Also meaningful. And longer than the summary.
                        DESC
 
   s.homepage         = 'https://example.com'
